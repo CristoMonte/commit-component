@@ -1,0 +1,40 @@
+.comment-input {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 20px;
+  label {
+    font-size: 14px;
+  }
+}
+.input-wrapper {
+  margin-bottom: 20px;
+  overflow: hidden;
+
+  input {
+    float: right;
+    height: 20px;
+    width: 210px;
+  }
+}
+
+.textarea-wrapper {
+  margin-bottom: 20px;
+  overflow: hidden;
+  textarea {
+    width: 210px;
+    float: right;
+  }
+}
+
+.opration-wrapper {
+  overflow: hidden;
+  .publish-btn {
+    float: right;
+    font-size: 14px;
+    background-color: pink;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 5px 25px;
+    border: none;
+  }
+}
